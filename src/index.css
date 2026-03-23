@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-white;
+  }
+}
+
+@theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-beige-100: #ffe5c9;
+  --color-beige-200: #fbd8bb;
+
+  --color-red-100: #f3c0c0;
+
+  --color-black-800: #181818;
+  --color-gray-400: #332e32;
+
+  --color-green-300: #94c23e;
+
+  --color-orange-300: #ef602a;
+  --color-orange-400: #ee5923;
+  --color-orange-500: #e34926;
+  --color-orange-600: #ca3f1f;
+
+  --font-sans: "Inter", sans-serif;
+
+  --font-size-hero-fluid: 'clamp(3rem, calc(8vw + 1rem), 5rem)';
+}
